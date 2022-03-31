@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double kilo,boy,index;
+        double weight,height,index;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Lütfen kilonuzu giriniz :");
-        kilo = input.nextDouble();
+        weight = input.nextDouble();
 
         System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz :");
-        boy = input.nextDouble();
+        height = input.nextDouble();
 
-        index = kilo / (boy*boy);
+        index = weight / (height*height);
         System.out.println("Vücut kitle indeksiniz :"+index);
 
 
